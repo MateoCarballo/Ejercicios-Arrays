@@ -7,6 +7,12 @@ public final class utilidadesArrays{
 
     }
 
+    public static void llenarMatrizInt(int[]miMatriz,int limiteInferior,int limiteSuperior){
+        for (int i = 0; i < miMatriz.length; i++) {
+            miMatriz[i]= utilidadesMatematicas.numAleatorioEntero(limiteInferior,limiteSuperior);
+        }
+    }
+
     public static void ordenarMatrizDouble(double[] miMatriz,boolean Ordenascendente){
         /*
         Ordenar matrices si el booleano es true de menor a mayor si es false de menor a mayor.
@@ -79,15 +85,11 @@ public final class utilidadesArrays{
                             aux=miMatriz[j];
                             miMatriz[j]=miMatriz[i];
                             miMatriz[i]=aux;
-
                         }
                     }
-
                 }
-
             }
         }
-
     }
 
     public static void escribirMatriz(int[]miMatriz){

@@ -1,7 +1,7 @@
 package Fáciles.Ejercicio3;
 
 
-import misUtilidades.utilidadesMatematicas;
+import misUtilidades.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,7 +17,7 @@ public class Main {
             matrizReales[i]=Float.parseFloat(br.readLine());
         }
 
-        utilidadesMatematicas.ordenarMatriz(matrizReales,true);
+        utilidadesArrays.ordenarMatrizDouble(matrizReales,true);
         System.out.println("El minimo es ->"+ matrizReales[0]);
         System.out.println("El maximo es ->"+ matrizReales[9]);
     }

@@ -1,26 +1,40 @@
-package Avanzados;
-
-import misUtilidades.utilidadesMatematicas;
+package Avanzados.Ejercicio17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import misUtilidades.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        int tamañoMatriz=20;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int[] matrizEntradas = new int[tamañoMatriz];
-        System.out.println("introduce 20 valores enteros");
-        for (int i = 0; i < 20 i++) {
-            if (i<10){
-                System.out.println("valor "+i);
-                matrizEntradas[i]=Integer.parseInt(br.readLine);
-            }
-            if (i>=10){
-                System.out.println("valor "+i);
-            }
+        String tamanoMatriz;
+
+        String inicio;
+        //pasos es el numero de veces que vamos a incrementar el valor inicial
+        String pasos;
+        String incremento;
+
+        System.out.println("######### SECUENCIA ARITMETICA #########");
+        System.out.println("Dimension de la matriz(numero de posiciones)?");
+        tamanoMatriz = br.readLine();
+        System.out.println("Inicio?");
+        inicio= br.readLine();
+        System.out.println("Incremento?");
+        incremento= br.readLine();
+        int[] matrizEntradas = new int[Integer.parseInt(tamanoMatriz)];
+        crearSecuencia(matrizEntradas,Integer.parseInt(inicio),Integer.parseInt(incremento));
+        System.out.println("Aqui tienes tu secuencia aritmetica");
+        utilidadesArrays.escribirMatriz(matrizEntradas);
+    }
+
+    public static void crearSecuencia(int[]miMatriz,int inicio,int incremento){
+
+        for (int i = 0; i <miMatriz.length ; i++) {
+            miMatriz[i]=inicio;
+            inicio=inicio+incremento;
         }
-        }
+
+    }
+
 }

@@ -25,7 +25,7 @@ public class Main {
         int[] matrizEntradas = new int[Integer.parseInt(tamanoMatriz)];
         crearSecuencia(matrizEntradas,Integer.parseInt(inicio),Integer.parseInt(incremento));
         System.out.println("Aqui tienes tu secuencia aritmetica");
-        utilidadesMatematicas.escribirMatriz(matrizEntradas);
+        utilidadesArrays.escribirMatriz(matrizEntradas);
     }
 
     public static void crearSecuencia(int[]miMatriz,int inicio,int incremento){

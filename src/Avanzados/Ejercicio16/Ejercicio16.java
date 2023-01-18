@@ -1,6 +1,6 @@
 package Avanzados;
 
-import misUtilidades.utilidadesMatematicas;
+import misUtilidades.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,6 +29,6 @@ public class Ejercicio16 {
                 valorPosiciones++;
             }
         }
-        utilidadesMatematicas.escribirMatriz(matrizEntradas);
+        utilidadesArrays.escribirMatriz(matrizEntradas);
     }
 }

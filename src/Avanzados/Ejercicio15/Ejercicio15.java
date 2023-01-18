@@ -1,6 +1,6 @@
 package Avanzados.Ejercicio15;
 
-import misUtilidades.utilidadesMatematicas;
+import misUtilidades.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,7 +26,7 @@ public class Ejercicio15 {
         int[] matrizEntradas = new int[tamañoMatriz];
         Arrays.fill(matrizEntradas,valorPosiciones);
 
-        utilidadesMatematicas.escribirMatriz(matrizEntradas);
+        utilidadesArrays.escribirMatriz(matrizEntradas);
 
 
     }

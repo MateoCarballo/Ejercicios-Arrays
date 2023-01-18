@@ -29,7 +29,7 @@ public class Main {
             if (continuar.equals("a")){
                 mostrarValores(matrizEntradas);
                 System.out.println("zzzz");
-                utilidadesMatematicas.organizarMatriz(matrizEntradas);
+                utilidadesArrays.ordenarMatrizInt(matrizEntradas,true);
             }
             if (continuar.equals("b")){
                 System.out.println("Posicion?");
