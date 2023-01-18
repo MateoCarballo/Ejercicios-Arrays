@@ -1,6 +1,6 @@
 package EjerciciosUnidimensionales.Avanzados.Ejercicio9;
 
-import EjerciciosUnidimensionales.Avanzados.misUtilidades.utilidadesMatematicas;
+import EjerciciosUnidimensionales.misUtilidades.utilidadesMatematicas;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class Main {
     }
     public static void llenarMatriz(int[]miMatriz) {
         for (int i = 0; i < miMatriz.length; i++) {
-            miMatriz[i]=utilidadesMatematicas.numAleatorioEntero(1,10);
+            miMatriz[i]= utilidadesMatematicas.numAleatorioEntero(1,10);
         }
     }
 

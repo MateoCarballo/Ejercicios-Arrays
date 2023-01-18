@@ -2,6 +2,8 @@ package EjerciciosUnidimensionales.Avanzados.Ejercicio12;
 
 
 import EjerciciosUnidimensionales.Avanzados.misUtilidades.*;
+import EjerciciosUnidimensionales.misUtilidades.utilidadesArrays;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package EjerciciosUnidimensionales.Avanzados.misUtilidades;
+package EjerciciosUnidimensionales.misUtilidades;
 
 
 public final class utilidadesArrays{

@@ -1,9 +1,9 @@
-package  EjerciciosUnidimensionales.Avanzados.Ejercicio12.salidaMejorada.SalidaColores;
+package EjerciciosUnidimensionales.Avanzados.Ejercicio12.salidaMejorada.SalidaColores;
 
 import java.util.ArrayList;
 
-import static  salidaMejorada.SalidaColores.color_table_impl.Color.*;
-import static  salidaMejorada.SalidaColores.color_table_impl.Tabla.visuTabla;
+import static EjerciciosUnidimensionales.Avanzados.Ejercicio12.salidaMejorada.SalidaColores.color_table_impl.Color.*;
+import static  EjerciciosUnidimensionales.Avanzados.Ejercicio12.salidaMejorada.SalidaColores.color_table_impl.Tabla.visuTabla;
 
 class Main {
     //Reset

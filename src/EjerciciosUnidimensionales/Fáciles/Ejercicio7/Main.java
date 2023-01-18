@@ -1,4 +1,4 @@
-package EjerciciosUnidimensionales.Avanzados.Fáciles.Ejercicio7;
+package EjerciciosUnidimensionales.Fáciles.Ejercicio7;
 
 import java.io.BufferedReader;
 import java.io.IOException;

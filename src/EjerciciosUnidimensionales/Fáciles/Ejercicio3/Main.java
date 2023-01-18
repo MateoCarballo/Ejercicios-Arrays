@@ -1,7 +1,9 @@
-package EjerciciosUnidimensionales.Avanzados.Fáciles.Ejercicio3;
+package EjerciciosUnidimensionales.Fáciles.Ejercicio3;
 
 
 import EjerciciosUnidimensionales.Avanzados.misUtilidades.*;
+import EjerciciosUnidimensionales.misUtilidades.utilidadesArrays;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
