@@ -22,5 +22,5 @@ public class Main {
         utilidadesArrays.ordenarMatrizInt(matrizEntradas,false);
         System.out.println(Arrays.toString(matrizEntradas));
 
-        }
     }
+}
