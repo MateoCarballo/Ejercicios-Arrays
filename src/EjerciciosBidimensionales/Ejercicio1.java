@@ -20,10 +20,9 @@ public class Ejercicio1 {
                 matrizEntradas[i][j] = utilidadesMatematicas.numAleatorioEntero(1, 25);
             }
         }
-
-        escribirMatrizBidimensional(escribirMatrizBidimensional(matrizEntradas));
+        escribirMatrizBidimensional(matrizEntradas);
     }
-    public static int[][] escribirMatrizBidimensional(int[][] miMatriz) {
+    public static void escribirMatrizBidimensional(int[][] miMatriz) {
 
         for (int i = 0; i < miMatriz.length; i++) {
             System.out.print("Fila->" + i + "  ");
@@ -39,7 +38,6 @@ public class Ejercicio1 {
             System.out.println("");
         }
 
-        return miMatriz;
     }
 }
 
