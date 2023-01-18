@@ -1,7 +1,7 @@
 package EjerciciosUnidimensionales.Fáciles.Ejercicio3;
 
 
-import EjerciciosUnidimensionales.Avanzados.misUtilidades.*;
+import EjerciciosUnidimensionales.misUtilidades.*;
 import EjerciciosUnidimensionales.misUtilidades.utilidadesArrays;
 
 import java.io.BufferedReader;
