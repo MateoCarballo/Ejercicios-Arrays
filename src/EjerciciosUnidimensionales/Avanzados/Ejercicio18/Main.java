@@ -1,6 +1,6 @@
 package EjerciciosUnidimensionales.Avanzados.Ejercicio18;
 
-import EjerciciosUnidimensionales.misUtilidades.*;
+import EjerciciosBidimensionales.misUtilidades.*;
 
 
 import java.io.IOException;

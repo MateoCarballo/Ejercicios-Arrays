@@ -3,8 +3,8 @@ package EjerciciosUnidimensionales.Avanzados.Ejercicio17;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import EjerciciosUnidimensionales.misUtilidades.*;
-import EjerciciosUnidimensionales.misUtilidades.utilidadesArrays;
+
+import EjerciciosBidimensionales.misUtilidades.utilidadesArrays;
 
 public class Main {
     public static void main(String[] args) throws IOException {

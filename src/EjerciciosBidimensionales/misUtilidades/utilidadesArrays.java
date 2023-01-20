@@ -1,4 +1,4 @@
-package EjerciciosUnidimensionales.misUtilidades;
+package EjerciciosBidimensionales.misUtilidades;
 
 
 public final class utilidadesArrays{
@@ -97,5 +97,57 @@ public final class utilidadesArrays{
             System.out.println("Posicion "+i+"-->"+miMatriz[i]);
         }
     }
+
+    public static void escribirMatriz(int[][] miMatriz) {
+        String aux="";
+
+        for (int i = 0; i < 10; i++) {
+            System.out.print(" ");
+        }
+
+        for (int i = 0; i < miMatriz[0].length ; i++) {
+            System.out.print("C"+i+" ");
+
+        }
+        System.out.println("");
+        for (int i = 0; i < miMatriz.length; i++) {
+            System.out.print("Fila->" + i + "  ");
+
+            for (int j = 0; j < miMatriz[i].length; j++) {
+                System.out.print("|");
+
+                if (miMatriz[i][j] < 10 ) {
+                    System.out.print(0);
+                    System.out.print(0);
+                } else if (miMatriz[i][j] >= 10 & miMatriz[i][j]<100) {
+                    System.out.print(0);
+
+                }
+
+
+                System.out.print(miMatriz[i][j]);
+            }
+            System.out.print("|");
+            System.out.println("");
+        }
+
+    }
+
+    public static void tresEnRaya(String[][] miMatriz) {
+        System.out.print("     0   1   2 ");
+        System.out.println("");
+        for (int i = 0; i < miMatriz.length; i++) {
+            System.out.print("" + i + "  ");
+
+            for (int j = 0; j < miMatriz[i].length; j++) {
+                System.out.print("|");
+                System.out.print(miMatriz[i][j]);
+            }
+            System.out.print("|");
+            System.out.println("");
+        }
+
+    }
+
 
 }

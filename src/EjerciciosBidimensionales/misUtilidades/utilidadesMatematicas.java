@@ -1,4 +1,4 @@
-package EjerciciosUnidimensionales.misUtilidades;
+package EjerciciosBidimensionales.misUtilidades;
 
 import java.util.Random;
 

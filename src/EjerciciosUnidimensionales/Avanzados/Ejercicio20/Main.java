@@ -1,7 +1,6 @@
 package EjerciciosUnidimensionales.Avanzados.Ejercicio20;
 
-import EjerciciosUnidimensionales.misUtilidades.*;
-import EjerciciosUnidimensionales.misUtilidades.utilidadesArrays;
+import EjerciciosBidimensionales.misUtilidades.utilidadesArrays;
 
 import java.io.BufferedReader;
 import java.io.IOException;
