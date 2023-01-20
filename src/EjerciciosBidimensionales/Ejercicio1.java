@@ -10,7 +10,7 @@ public class Ejercicio1 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int filas = 10;
+        int filas = 5;
         int columnas = 5;
 
         int[][] matrizEntradas = new int[filas][columnas];
@@ -23,7 +23,7 @@ public class Ejercicio1 {
         escribirMatrizBidimensional(matrizEntradas);
     }
     public static void escribirMatrizBidimensional(int[][] miMatriz) {
-
+        System.out.println("Columna   0  1  2  3  4  ");
         for (int i = 0; i < miMatriz.length; i++) {
             System.out.print("Fila->" + i + "  ");
 
