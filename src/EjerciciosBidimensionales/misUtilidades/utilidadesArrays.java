@@ -7,7 +7,7 @@ public final class utilidadesArrays{
 
     }
 
-    public static void llenarMatrizInt(int[]miMatriz,int limiteInferior,int limiteSuperior){
+    public static void llenarMatriz(int[]miMatriz,int limiteInferior,int limiteSuperior){
         for (int i = 0; i < miMatriz.length; i++) {
             miMatriz[i]= utilidadesMatematicas.numAleatorioEntero(limiteInferior,limiteSuperior);
         }

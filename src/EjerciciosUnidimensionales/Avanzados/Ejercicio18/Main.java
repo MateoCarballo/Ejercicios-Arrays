@@ -13,7 +13,7 @@ public class Main {
 
         int[] matrizEntradas = new int[tamañoMatriz];
 
-        utilidadesArrays.llenarMatrizInt(matrizEntradas,0,10);
+        utilidadesArrays.llenarMatriz(matrizEntradas,0,10);
         System.out.println("Orden ascendente");
         Arrays.sort(matrizEntradas);
         System.out.println(Arrays.toString(matrizEntradas));

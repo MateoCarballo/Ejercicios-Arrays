@@ -16,7 +16,7 @@ public class Main {
         int numeroVeces=0;
         int[] matrizEntradas = new int[tamañoMatriz];
 
-        utilidadesArrays.llenarMatrizInt(matrizEntradas,0,99);
+        utilidadesArrays.llenarMatriz(matrizEntradas,0,99);
         Arrays.sort(matrizEntradas);
         System.out.println("Introduce el numero que quieres comprobar");
         numeroBuscado=Integer.parseInt(br.readLine());
